@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/portfolio/:path*",
-      "destination": "portfolio-website-mu-blue-67.vercel.app"
+      "destination": "https://portfolio-website-mu-blue-67.vercel.app/:path*"
     }
   ]
 }
