@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const LandingPage: React.FC = () => {
   return (
@@ -22,15 +21,15 @@ const LandingPage: React.FC = () => {
             I'm Joem — an aspiring backend developer. Explore my blog, portfolio, or projects.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/portfolio" className="bg-primary text-white px-5 py-2 rounded hover:bg-blue-600 transition">
+            <a href="https://portfolio.tyche01.fun" className="bg-primary text-white px-5 py-2 rounded hover:bg-blue-600 transition">
               View Portfolio
-            </Link>
-            <Link to="/blog" className="bg-secondary text-white px-5 py-2 rounded hover:bg-purple-600 transition">
+            </a>
+            <a href="https://blog.tyche01.fun" className="bg-secondary text-white px-5 py-2 rounded hover:bg-purple-600 transition">
               Visit Blog
-            </Link>
-            <Link to="/projects" className="bg-tertiary text-white px-5 py-2 rounded hover:bg-emerald-600 transition">
+            </a>
+            <a href="https://tyche01.fun/projects" className="bg-tertiary text-white px-5 py-2 rounded hover:bg-emerald-600 transition">
               Other Projects
-            </Link>
+            </a>
           </div>
         </div>
       </main>

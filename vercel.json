@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/portfolio/:path*",
-      "destination": "https://portfolio-website-mu-blue-67.vercel.app/:path*"
-    }
-  ]
-}
